@@ -60,7 +60,7 @@ function uploadDataToClassroom(list = '', sheetName = 'new') {
 
     // Get the email and grade
     var studentEmail = emailValues[i][0];
-    if (!studentEmail) continue;
+    if (!studentEmail) break;
     var studentGrade = gradeValues[i][0];
 
     // Activate the corresponding cells
